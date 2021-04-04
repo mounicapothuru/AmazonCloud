@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="../static/bootstrap.css" rel="stylesheet">
+    <link href="../static/queries.css" rel="stylesheet">
+    <script src="../static/jquery.min.js"></script>
+    <script src="../static/bootstrap.js"></script>
+    <script src="../static/Queries.js"></script>
+
+</head>
+<body class="databody">
+    <div class="row form-inline" style="margin-left: 1vw;">
+
+            <input type="radio" id="MySQL" name="MySQL" value="MySQL">
+            <label for="MySQL">MySQL</label>
+
+            <input type="radio" id="Redshift" name="Redshift" value="Redshift">
+            <label for="Redshift">Redshift</label>
+
+    </div>
+    <div class="row">
+        <textarea id="Query" placeholder="Enter your SQL Query here......." style="width: 20vw; height: 10vw;"></textarea>
+    </div>
+    <div>
+        <button onclick="Query()">Submit</button>
+    </div>
+
+        <div class="row table">
+        </div>
+
+</body>
+</html>
